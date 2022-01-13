@@ -11,7 +11,7 @@ from Logger import logError, logWarning, logInfo, logDiscord
 logInfo("Hello World")
 logWarning("Hello World")
 logError("Hello World")
-logDiscord("Hello discord")
+logDiscord(Logger.INFO_PREFIX, "Hello discord")
 ```
 
 ## Conifguration
